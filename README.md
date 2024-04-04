@@ -48,7 +48,3 @@ fetchLeetCodeData(username, (error, data) => {
 });
 ```
 
-## License
-
-This project is licensed under the ISC License. See the [LICENSE](https://www.isc.org/licenses/) file for details.
-
