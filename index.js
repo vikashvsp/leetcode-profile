@@ -1,5 +1,5 @@
 import https from 'https';
-export async function fetchLeetCodeData(username, callback) {
+export default async function fetchLeetCodeData(username, callback) {
      const query = `
     {
          recentSubmissionList(username: "${username}") {
