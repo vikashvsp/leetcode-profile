@@ -1,5 +1,5 @@
-const https = require('https');
-function fetchLeetCodeData(username, callback) {
+import https from 'https';
+export async function fetchLeetCodeData(username, callback) {
      const query = `
     {
          recentSubmissionList(username: "${username}") {
@@ -53,4 +53,3 @@ function fetchLeetCodeData(username, callback) {
      req.end();
 }
 
-module.exports = fetchLeetCodeData;
