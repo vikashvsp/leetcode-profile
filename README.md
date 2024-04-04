@@ -5,12 +5,12 @@ This module allows you to fetch recent submission data and user statistics from 
 ## Installation
 
 ```bash
-npm install fetch-leetcode-data
+npm install leetcode-profile
 ```
 ## Usage
 
 ```javascript
-const fetchLeetCodeData = require('fetch-leetcode-data');
+const fetchLeetCodeData = require('leetcode-profile');
 
 fetchLeetCodeData(username, (error, data) => {
     if (error) {
@@ -35,7 +35,7 @@ The `callback` parameter expects a function that will be invoked upon completion
 
 ## Example
 ```javascript
-const fetchLeetCodeData = require('fetch-leetcode-data');
+const fetchLeetCodeData = require('leetcode-profile');
 
 const username = 'your_leetcode_username';
 
